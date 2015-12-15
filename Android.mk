@@ -34,6 +34,9 @@ else
     LOCAL_PROGUARD_ENABLED := disabled
 endif
 
+# Enable dexpreopt to speed boot time
+WITH_DEXPREOPT := true
+
 include $(BUILD_PACKAGE)
 
 include $(CLEAR_VARS)
